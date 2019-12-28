@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:text="Artist's Details Stored in Firebase Realtime Database:"
+        android:textSize="25sp"
+        android:textColor="#FD785C "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:text="Artist Name:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:textColor="#FD785C "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Artist Email Address:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:textColor="#FD785C "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Artist Password:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        android:textSize="20sp"
+        android:textColor="#FD785C "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Artist Mobile:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        android:textSize="20sp"
+        android:textColor="#FD785C "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textViewMobile"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Artist Genre:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        android:textSize="20sp"
+        android:textColor="#FD785C "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textViewGenre"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Artist Gender:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        android:textSize="20sp"
+        android:textColor="#FD785C "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textViewGender"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

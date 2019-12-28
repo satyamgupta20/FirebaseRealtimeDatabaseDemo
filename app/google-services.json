@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "746350144459",
+    "firebase_url": "https://fir-realtimedatabasedemo-a47c6.firebaseio.com",
+    "project_id": "fir-realtimedatabasedemo-a47c6",
+    "storage_bucket": "fir-realtimedatabasedemo-a47c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746350144459:android:49c495aa020ef7eea9244e",
+        "android_client_info": {
+          "package_name": "app.track.firebaserealtimedatabasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746350144459-3t8a58n134hugvcduffjktr0rsch4j86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.track.firebaserealtimedatabasedemo",
+            "certificate_hash": "4c7e2bf2db6e831101782c8f78893e402125e6b2"
+          }
+        },
+        {
+          "client_id": "746350144459-gcs8f4rjgdk7o6bb633ndckejhflkb4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1_5Z5BJ-UUWJgitxxvW11LSpO2dpw8o0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746350144459-gcs8f4rjgdk7o6bb633ndckejhflkb4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

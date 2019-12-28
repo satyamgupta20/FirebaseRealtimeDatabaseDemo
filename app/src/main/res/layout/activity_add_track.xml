@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTrackActivity"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewArtistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textViewArtistId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editTextTrackName"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter track name"
+        tools:ignore="MissingConstraints" />
+
+    <SeekBar
+        android:max="5"
+        android:id="@+id/seekBarRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonAddTrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="154dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#FD785C "
+        android:text="Tracks"/>
+
+    <ListView
+        android:id="@+id/listViewTracks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

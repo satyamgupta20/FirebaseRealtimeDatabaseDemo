@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linear_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:textColor="#FD785C "
+            android:text="Registration Form for Artists"/>
+
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Email"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Password"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextConfirmPassword"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:hint="Confirm the Password"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/editTextMobile"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Mobile Number"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textColor="#FD785C "
+            android:text="Please Select Your Genres "/>
+
+        <Spinner
+            android:id="@+id/spinnerGenres"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:entries="@array/genres"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textColor="#FD785C "
+            android:text="Please Select Your Gender "/>
+
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:entries="@array/gender"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textColor="#FD785C "
+            android:text="Add Artist's Details to Realtime Database"/>
+
+
+        <Button
+            android:id="@+id/buttonAddArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert Data"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="154dp"
+            tools:ignore="MissingConstraints" />
+
+
+        <ListView
+            android:id="@+id/listViewArtists"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</ScrollView>
